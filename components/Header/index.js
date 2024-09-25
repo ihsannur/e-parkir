@@ -32,12 +32,6 @@ const Header = ({ isIndex }) => {
       url: `/#tentang`,
       active: activePage == "/#tentang" || scrollPosition > 1000,
     },
-    {
-      isDropdown: false,
-      text: "Kontak",
-      url: `/#kontak`,
-      active: activePage == "/#kontak",
-    },
   ];
 
   useEffect(() => {
